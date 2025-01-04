@@ -147,6 +147,55 @@
 // Primary Diagonal Sum: 15
 // Secondary Diagonal Sum: 15
 
+// 7 .squaredMatrix
+
+// function squareMatrixElements(matrix) {
+//     let result = matrix.map(row => row.map(element => element * element));
+//     return result;
+// }
+
+// // Example usage
+// let matrix4 = [
+//     [1, 4, 7],
+//     [1, 5, 8],
+//     [3, 6, 9]
+// ];
+
+// let squaredMatrix = squareMatrixElements(matrix4);
+// console.log(squaredMatrix);
+
+// Expected Output:
+// [
+//     [1, 16, 49],
+//     [1, 25, 64],
+//     [9, 36, 81]
+// ]
+
+
+// 8. cubedMatrix
+
+// function cubeMatrixElements(matrix) {
+//     let result = matrix.map(row => row.map(element => element * element * element));
+//     return result;
+// }
+
+// let matrix4 = [
+//     [1, 4, 7],
+//     [1, 5, 8],
+//     [3, 6, 9]
+// ];
+
+// let cubedMatrix = cubeMatrixElements(matrix4);
+// console.log(cubedMatrix);
+
+// Expected Output:
+// [
+//     [1, 64, 343],
+//     [1, 125, 512],
+//     [27, 216, 729]
+// ]
+
+
 
 
 
